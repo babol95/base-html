@@ -1,15 +1,222 @@
 <!doctype html>
 <html>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" href="/css/all.css"/>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <title></title>
-</head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="css/all.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <title>Base HTML</title>
+    </head>
 
-<body>
-<script src="/js/all.js"></script>
-</body>
+    <body>
+
+        <!-- Main container -->
+        <div class="container">
+
+            <!-- Title -->
+            <div class="row">
+
+                <div class="twelve columns text-center">
+                    <h2>Base HTML</h2>
+                    <hr/>
+                </div>
+
+            </div>
+
+            <!-- First section -->
+            <div class="row">
+                <div class="six columns">
+                    <h3>Pourquoi ?</h3>
+                    <p>
+                        Parce que les technologies evolues et qu'il faut arréter de se prendre la tête pour rien.
+                    </p>
+                </div>
+
+                <div class="six columns">
+                    <h3>Comment l'utiliser ?</h3>
+                    <p>Base HTML est diponible sur <a href="https://github.com/babol95/base-html">github</a>. Il suffit donc de clôner le depot puis d'executer 3 commandes dans le terminal</p>
+                    <code>npm install</code><br>
+                    <code>bower install</code><br>
+                    <code>gulp</code>
+                    <p>
+                        <br>
+                        Base HTML est désormais pret à être utilisé
+                    </p>
+
+                </div>
+
+                <div class="twelve columns">
+                    <hr/>
+                </div>
+
+            </div>
+
+            <!-- Utilities section -->
+            <div class="row padded-row">
+
+                <div class="twelve columns">
+                    <h4>Utilitaires disponibles</h4>
+                    <strong>Bower</strong>
+                    <p>
+                        Bower permet de télécharger directement dans le projet des librairies CSS/JS. Cela facilitie l'installation, fait gagner du temps et garde les librairies à jour.<br>
+                        <a href="http://bower.io/">Site officiel Bower</a>
+                    </p>
+
+                    <strong>Gulp (avec Elixir)</strong>
+                    <p>
+                        Gulp permet d'automatiser certaines taches en rapport au css/js comme la concaténatation de fichier ou encore la compilation de fichier sass.<br>
+                        <a href="http://gulpjs.com/">Site officiel Gulp</a>
+                        <a href="http://laravel.com/docs/5.1/elixir">Site officiel Elixir</a>
+                    </p>
+
+                </div>
+
+                <div class="twelve columns">
+                    <hr/>
+                </div>
+
+            </div>
+
+            <!-- Folder section -->
+            <div class="row padded-row">
+
+                <!-- Section title -->
+                <div class="twelve columns">
+                    <h4>Structure de dossier</h4>
+                </div>
+
+                <!-- Section content -->
+                <div class="row">
+
+                    <!-- Folders -->
+                    <div class="six columns">
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-folder-o"></i> bower_components | Librairies téléchargé via BOWER</li>
+                            <li><i class="fa fa-folder-o"></i> node_modules | Librairies Node</li>
+                            <li><i class="fa fa-folder-o"></i> pubic | HTML</li>
+                            <li><i class="fa fa-folder-o"></i> resources | Sass, Css, Js etc ..</li>
+                            <li><i class="fa fa-align-justify"></i> .gitignore | Github</li>
+                            <li><i class="fa fa-align-justify"></i> bower.json | Dépendences bower</li>
+                            <li><i class="fa fa-align-justify"></i> gulpfile.js | Instructions Gulp</li>
+                            <li><i class="fa fa-align-justify"></i> packages.js | Dépendences Node</li>
+                            <li><i class="fa fa-align-justify"></i> README.md | Github</li>
+                        </ul>
+                    </div>
+
+                    <!-- Important folders -->
+                    <div class="six columns">
+                        <h5>Les dossiers qui nous interessent sont :</h5>
+                        <strong>bower_components</strong>
+                        <p>Ce dossier contient toutes les librairies téléchargés via bower.</p>
+
+                        <strong>Public</strong>
+                        <p>Ce dossier contient tout le html des pages web ainsi que les fichiers css et js concaténé par "gulp".</p>
+
+                        <strong>Resources</strong>
+                        <p>Ce dossier contient toutes les resources pour la création du site a savoir les librairies css et js mais aussi le code personel.</p>
+                    </div>
+                </div>
+
+                <div class="twelve columns">
+                    <hr/>
+                </div>
+
+            </div>
+
+            <!-- Librairies section -->
+            <div class="row padded-row">
+
+                <div class="twelve columns">
+                    <h4>Librairies préinstallées</h4>
+                </div>
+
+                <div class="row">
+                    <div class="four columns">
+                        <strong>JS :</strong>
+                        <ul>
+                            <li><a href="https://jquery.com/">Jquery</a></li>
+                            <li><a href="http://underscorejs.org/">UnderScore</a></li>
+                            <li><a href="http://mynameismatthieu.com/WOW/">WOW</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="four columns">
+                        <strong>Css :</strong>
+                        <ul>
+                            <li><a href="http://getskeleton.com/">Skeleton</a></li>
+                            <li><a href="https://necolas.github.io/normalize.css/">Normalize</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="four columns">
+                        <strong>Sass :</strong>
+                        <ul>
+                            <li><a href="https://daneden.github.io/animate.css/">Animate</a></li>
+                            <li><a href="http://bourbon.io/">Bourbon</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="twelve columns">
+                    <hr/>
+                </div>
+
+            </div>
+
+            <!-- Sass section -->
+            <div class="row padded-row">
+
+                <div class="twelve columns">
+                    <h4>Sass</h4>
+                    <p>Sass simplifie la création de feuilles de style grâce à une syntaxe allégé et la possibilité d'utiliser des fonctions et variables</p>
+
+                    <strong>Comment l'utiliser</strong>
+                    <p>
+                        Tout les fichiers sass sont dans le dossier "resources/assets/sass"<br>
+                        Le dossier comprend un fichier <strong>app.sass</strong> qui permet d'importer les autres fichier sass<br>
+                        Pour compiler les fichier sass il faut utiliser la commande <code>gulp</code> ou bien <code>gulp watch</code>. La seconde commande permet de "surveiller" les fichiers sass et à chaque modification le code sera recompilé.<br>
+                        Pour plus d'information à propos de l'utilisation de SASS <a href="http://sass-lang.com/">Voir le site officiel</a>
+                    </p>
+                </div>
+
+                <div class="twelve columns">
+                    <h4>Bower</h4>
+                    <p>Bower permet de télécharger directement dans le projet des librairies css/js</p>
+
+                    <strong>Comment l'utiliser</strong>
+                    <p>
+                        Pour télécharger une librairie il faut tout d'abord la chercher grâce à la commande <code>bower search</code> suivie du nom de la librairie ex <code>bower search jquery</code><br>
+                        Une fois la librairie trouvé il faut la téléchargé grâce à la commande <code>bower install</code> suivie du nom de la librairies ex <code>bower install jquery</code><br>
+                        La librairie est maintenant téléchargé dans le dossier "bower_components" il faut donc la copier grâce à gulp.
+                    </p>
+                </div>
+
+                <div class="twelve columns">
+                    <h4>Gulp</h4>
+                    <p>Gulp permet d'automatiser certaines tâche en rapport au css/js/sass</p>
+
+                    <strong>Comment l'utiliser</strong>
+                    <p>
+                        Dans le fichier gulpfile.js sont ecris les tâches à exectuer tel que :
+                    </p>
+
+                    <ul>
+                        <li>Copier une librairie</li>
+                        <li>Compiler le sass</li>
+                        <li>Concaténé le CSS</li>
+                        <li>Concaténé le JS</li>
+                    </ul>
+
+                    <p>Des exemples sont inclus dans le fichier gulpfile.js</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="js/all.js"></script>
+
+    </body>
 
 </html>
