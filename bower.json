@@ -1,0 +1,20 @@
+{
+  "name": "base-html",
+  "version": "1.0.0",
+  "homepage": "https://github.com/babol95/base-html",
+  "authors": [
+    "Paul-Henri Leobon <p.leobon@phl-dev.fr>"
+  ],
+  "description": "Base components and folder structure for HTML5 projetcs",
+  "license": "CC-BY-4.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
